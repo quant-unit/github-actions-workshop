@@ -16,7 +16,8 @@ jobs:
       - name: Checkout files
         uses: actions/checkout@v3
 
-      - uses: JasonEtco/create-an-issue@v2
+      - name: create an issue
+	uses: JasonEtco/create-an-issue@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
