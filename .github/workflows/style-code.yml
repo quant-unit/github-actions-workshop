@@ -34,8 +34,8 @@ jobs:
 
           # Some config set up to establish creds
           git config --global --add safe.directory $GITHUB_WORKSPACE
-          git config --global user.email "itcrtrainingnetwork@gmail.com"
-          git config --global user.name "jhudsl-robot"
+          git config --global user.email "ChristianTausch123@web.de"
+          git config --global user.name "quant-unit"
 
           # Now commit the styled files
           git add \*.Rmd

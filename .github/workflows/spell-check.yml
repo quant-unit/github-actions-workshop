@@ -34,7 +34,7 @@ jobs:
 
       # We want to retrieve this file after this runs so we can see what spell check errors were detected
       - name: Archive spelling errors
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         # These arguments underneath `with` are generally action specific so we have to check the documentation: https://github.com/marketplace/actions/upload-a-build-artifact
         with:
           name: spell-check-results
