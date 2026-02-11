@@ -18,7 +18,7 @@ jobs:
 
       - name: Create An Issue
         uses: JasonEtco/create-an-issue@v2
-        with:
-          filename: ./utils/issue-template.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          filename: ./utils/issue-template.md
