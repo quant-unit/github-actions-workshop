@@ -9,7 +9,7 @@ jobs:
   run-script:
     runs-on: ubuntu-latest
     container:
-      image: rocker/r-base
+      image: jhudsl/ottr_python:main
 
     steps:
       - name: Checkout Code
